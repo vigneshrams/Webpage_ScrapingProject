@@ -374,7 +374,8 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   position: relative;
-  background: url("../img/intro-bg.png") center bottom no-repeat;
+  background-color:#fafafa;
+  /*background: url("../img/intro-bg.png") center bottom no-repeat;*/
   background-size: cover;
   padding: 200px 0 120px 0;
 }
@@ -425,7 +426,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .intro-info h2 {
-  color: #fff;
+  color: #2d2d2d;
   margin-bottom: 40px;
   font-size: 48px;
   font-weight: 700;
@@ -449,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 600;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 32px;
+  padding: 18px 32px;
   border-radius: 50px;
   transition: 0.5s;
   margin: 0 20px 20px 0;
@@ -676,7 +677,7 @@ h1, h2, h3, h4, h5, h6 {
   background: #FFF;
   border-radius: 10px;
   margin: 0 15px;
-  padding: 15px 0;
+  padding: 25px 0;
   text-align: center;
   color: #000;
   transition: 0.3s ease-in-out;
@@ -711,20 +712,38 @@ h1, h2, h3, h4, h5, h6 {
 	color:#737373 !important;
 	font-size:13px;
 }
-
+#amt{
+    padding-bottom: 15px;
+    margin: 0px 15px 0px 15px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.19);
+}
+#pricing .card-body{
+    padding: 1.5rem 3.5rem 1.5rem 3.5rem;
+    text-align: left;
+}
 #amt h5{
 	display:inline-block;
-	font-size: 48px !important;
+	font-size: 35px !important;
 	padding-top: 15px;
 	color: #bfddfe;
 }
+.price_select{
+    margin-top: 35px;
+    width: 100%;
+    text-align: center;
+}
+.price_select button{
+    width:80%;
+	padding:8px;
 
+}
 #amt i{
 	font-size: 18px !important;
 }
 #pricing .card h5 {
-  font-size: 22px;
-  font-weight: 600;
+  margin-bottom:0px;
+  font-size: 20px;
+  font-weight: 500;
   color:#00458f
 }
 
@@ -736,11 +755,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #pricing .card-body p i{
+	margin-right:6px;
 	color:#5cb85c;
 }
 
 #pricing .card p {
-	margin:0 0 10px 0 !important;
+	margin:0 0 14px 0 !important;
 }
 
 #pricing .card p :hover{
