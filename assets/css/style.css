@@ -427,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-info h2 {
   color: #2d2d2d;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   font-size: 48px;
   font-weight: 700;
 }
@@ -465,8 +465,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro .intro-info .btn-get-started:hover {
   background: none;
-  border-color: #fff;
-  color: #fff;
+  border-color: #007bff;
+    color: #007bff;
 }
 
 #intro .intro-info .btn-services {
@@ -731,6 +731,12 @@ h1, h2, h3, h4, h5, h6 {
     margin-top: 35px;
     width: 100%;
     text-align: center;
+}
+.scrap_desc{
+    margin-bottom: 24px;
+    font-weight: 600;
+    line-height: 23px;
+    padding-right: 10px;
 }
 .price_select button{
     width:80%;
